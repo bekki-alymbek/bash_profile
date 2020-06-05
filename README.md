@@ -4,6 +4,14 @@
 When you login (type username and password) via console, either sitting at the machine, or remotely via ssh: .bash_profile is executed to configure your shell before the initial command prompt.
 But, if you’ve already logged into your machine and open a new terminal window (xterm) then .bashrc is executed before the window command prompt. .bashrc is also run when you start a new bash instance by typing /bin/bash in a terminal.
 
+#Commands for Environment Variables
+
+`env`  – The command lists all of the environment variables in the shell.
+`printenv` – The command prints all (if no environment variable is specified) of environment variables and definitions of the current environment.
+`set` – The command assigns or defines an environment variable.
+`unset` – The command deletes the environment variable.
+`export` – The command exports the value of the newly assigned environment variable.
+
 # Creating functions
 
 ```
@@ -26,8 +34,7 @@ if [ -f ~/etc/bashrc ]: then
         . ~/etc/bashrc
 fi
 ```
-- How to source or execute .bash_profile and .bashrc
-
+- How to force your current session to read the file by just updating it.
 ```
 source ~/.bash_profile  
 ```
@@ -42,6 +49,10 @@ and
 
 # Creating alias
 
- Alias can be create in eaither .bash_profile or .bashrc files. But once you add the alias in to your .bash_profile, you must to source it before your alias will be available to execute  
+ Alias can be create in either .bash_profile or .bashrc files. But once you add the alias into your .bash_profile, you must source it before your alias will be available to execute  
 
 # Environmental Variables
+
+Environmental variables are variables that are defined for the current shell and are inherited by any child shells or processes. Environmental variables are used to pass information into processes that are spawned from the shell.
+
+- good source to read about  environmental variables [link](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps)
