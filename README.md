@@ -49,9 +49,11 @@ or
 ```
 and
 
-``
-source ~/etc/bashrc
 ```
+source ~/etc/bashrc
+
+```
+
 - depends on where your .bashrc file is located.
 
 # Creating alias
