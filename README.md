@@ -44,11 +44,14 @@ source ~/.bash_profile
 ```
 or
 
-``. ~/.bash_profile ``
+```
+. ~/.bash_profile
+```
 and
 
-`` source ~/etc/bashrc ``
-
+``
+source ~/etc/bashrc
+```
 - depends on where your .bashrc file is located.
 
 # Creating alias
