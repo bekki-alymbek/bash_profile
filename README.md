@@ -64,4 +64,4 @@ source ~/etc/bashrc
 
 Environmental variables are variables that are defined for the current shell and are inherited by any child shells or processes. Environmental variables are used to pass information into processes that are spawned from the shell.
 
-- good source to read about  environmental variables [link](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps)
+- Additional information about environmental variables: [How to read and set environmental and shell variables on a linux](https://www.digitalocean.com/community/tutorials/how-to-read-and-set-environmental-and-shell-variables-on-a-linux-vps)
