@@ -14,13 +14,13 @@
 #  9.   Reminders & Notes
 #
 #  ---------------------------------------------------------------------------
-##########ALLSTATE STUFF#########
 export AWS_CA_BUNDLE=/usr/local/lib/python2.7/site-packages/boto/cacerts/cacerts.txt
 alias awsume='. awsume'
 export AWS_PROFILE="saml"
 alias aws-saml="python2 /Users/balym/Projects/stratus-tools/iam/aws-saml.py"
 alias aws-saml-no-proxy="python2 /Users/blaym/Projects/stratus/iam/aws-saml.py no_proxy"
-# Proxy for Allstate
+
+
 function noproxy() {
    unset http_proxy
    unset https_proxy
